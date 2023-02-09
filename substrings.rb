@@ -15,7 +15,7 @@ end
 
 puts substrings("Howdy partner, sit down! How's it going?", dictionary)
 
-#####################################################################################################################################
+#################################################################################################################################
 
 # take string, see if its in dictionary, return hash with k-v pairs of the substring and the num of times it shows up
 
@@ -29,7 +29,7 @@ puts substrings("Howdy partner, sit down! How's it going?", dictionary)
 
 # Example : substrings("below", dictionary) #=> { "below" => 1, "low" => 1 } 
 
-#####################################################################################################################################
+#################################################################################################################################
 
 # created_hash = string_downcase.split(" ").reduce(Hash.new(0)) do |hash, string_word|
 
